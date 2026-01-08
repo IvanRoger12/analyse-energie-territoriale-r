@@ -1,0 +1,9 @@
+.gitignore
+.Rproj.user
+/RTE Data
+/Volume de chaleur
+EDA_RTE.R
+eda_heat_volume.R
+projet CGDD.Rproj
+.RData
+.Rhistory
