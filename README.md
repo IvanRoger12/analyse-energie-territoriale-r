@@ -1,37 +1,38 @@
 # Analyse Énergie Territoriale (R)
 
-Ce dépôt contient le projet d’analyse statistique des volumes de chaleur par territoire (régional, départemental, communal), développé dans le cadre d’un entretien de recrutement au Commissariat Général au Développement Durable (CGDD).
+Ce dépôt présente un projet d’analyse statistique des volumes de chaleur par territoire
+(régional, départemental et communal), réalisé dans le cadre d’un entretien de recrutement
+au Commissariat Général au Développement Durable (CGDD).
 
-## 📌 Contenu du dépôt
+## 🎯 Objectifs du projet
 
-- **scripts/** : scripts R utilisés pour le nettoyage, l’analyse et les visualisations
-- **data/** : échantillons de données (si autorisé)
-- **outputs/** : visualisations, graphiques, résultats
-- **synthese.pdf** : synthèse statistique du projet
-- **app/** : application Shiny (si applicable)
+- Importer et nettoyer des données énergétiques territoriales
+- Produire des statistiques par année et par échelle géographique
+- Analyser les évolutions temporelles
+- Diffuser les résultats sous forme de visualisations et de tableau de bord interactif
 
-## 🧠 Objectifs du projet
+## 🛠️ Bibliothèques utilisées
 
-- Importer et nettoyer des données territoriales
-- Produire des statistiques par année et par échelle
-- Construire une interface interactive (Shiny)
-- Générer des visualisations claires et exploitables
+- `shiny`, `shinydashboard` : application et tableau de bord interactifs  
+- `tidyverse` : nettoyage, transformation et agrégation des données  
+- `lubridate` : gestion des variables temporelles  
+- `plotly` : visualisations interactives  
+- `DT` : tableaux interactifs pour l’exploration des données  
 
-## 🛠️ Librairies utilisées
+## 📊 Résultats
 
-- `shiny`, `shinydashboard` — interface interactive
-- `tidyverse` — manipulation des données
-- `lubridate` — gestion des dates
-- `plotly` — visualisation interactive
-- `DT` — tables interactives
-
-## 🧾 Résultats
-
+- Indicateurs agrégés par territoire
 - Graphiques interactifs
-- Tableaux de bord Shiny
+- Tableau de bord Shiny
 - Synthèse statistique PDF
+
+## 🔁 Méthodologie
+
+L’approche repose sur des méthodes statistiques descriptives,
+dans une logique de rigueur, de comparabilité et de reproductibilité,
+conforme aux standards de la statistique publique.
 
 ## 📎 Contact
 
-Pour toute question, vous pouvez me contacter à :  
-📧 ivanchouchine12@gmail.com  
+Ivan NFINDA  
+📧 ivanchouchine12@gmail.com
